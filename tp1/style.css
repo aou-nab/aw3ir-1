@@ -1,0 +1,238 @@
+body {
+    font-family: tahoma, "Times New Roman", Times, serif;
+    font-size: small;
+  }
+  
+  #bloc_page {
+    width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(0, 112, 192);
+    box-shadow: 4px 4px 0px black;
+  }
+  
+  #information h1 {
+    color: blue;
+    text-decoration: underline;
+  }
+  #information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #infoGauche {
+    width: 500px;
+    margin-left: 0%;
+    margin-right: 500px;
+  }
+  
+  #infoGauche ul {
+    list-style-type: none;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 112, 192);
+  }
+  
+  #infoDroite {
+    width: 500px;
+    margin-left: 50px;
+  }
+  #infoDroite h1 {
+    text-decoration: underline;
+
+   color: blue;
+  }
+  
+  #langues ul {
+    list-style-type: none;
+  }
+  header {
+    display: flex;
+    background-color: rgb(0, 112, 192);
+    color: white;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  a :hover {
+    color: brown;
+  }
+  
+  #information {
+    justify-content: space-around;
+  }
+  
+  #coordonnées {
+    border-left: solid white;
+    justify-content: center;
+    font-size: large;
+    font-family: tahoma, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 450px;
+    padding-left: 2px;
+  }
+  
+  #description {
+    text-align: center;
+    width: 450px;
+  }
+  
+  article p {
+    text-align: center;
+    font-size: 13px;
+  }
+  body {
+    font-family: tahoma, "Times New Roman", Times, serif;
+    font-size: small;
+  }
+  
+  #bloc_page {
+    width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(0, 112, 192);
+    box-shadow: 4px 4px 0px black;
+  }
+  
+  #information h1 {
+    color: blue;
+    text-decoration: underline;
+  }
+  #information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #infoGauche {
+    width: 500px;
+  }
+  
+  #infoGauche ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 112, 192);
+  }
+  
+  #infoDroite {
+    width: 500px;
+  }
+  
+  #langues ul {
+    list-style-type: none;
+  }
+  header {
+    display: flex;
+    background-color: rgb(0, 112, 192);
+    color: white;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  a :hover {
+    color: brown;
+  }
+  
+  #information {
+    justify-content: space-around;
+  }
+  
+  #coordonnées {
+    border-left: solid white;
+    justify-content: center;
+    font-size: large;
+    font-family: tahoma, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 450px;
+    padding-left: 2px;
+  }
+  
+  #description {
+    text-align: center;
+    width: 450px;
+  }
+  
+  article p {
+    text-align: center;
+    font-size: 13px;
+  }
+  body {
+    font-family: tahoma, "Times New Roman", Times, serif;
+    font-size: small;
+  }
+  
+  #bloc_page {
+    width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(0, 112, 192);
+    box-shadow: 4px 4px 0px black;
+  }
+  
+  #information h1 {
+    color: blue;
+    text-decoration: underline;
+  }
+  #information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #infoGauche {
+    width: 500px;
+  }
+  
+  #infoGauche ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 112, 192);
+  }
+  
+  #infoDroite {
+    width: 500px;
+  }
+  
+  #langues ul {
+    list-style-type: none;
+  }
+  header {
+    display: flex;
+    background-color: rgb(0, 112, 192);
+    color: white;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  a :hover {
+    color: brown;
+  }
+  
+  #information {
+    justify-content: space-around;
+  }
+  
+  #coordonnées {
+    border-left: solid white;
+    justify-content: center;
+    font-size: large;
+    font-family: tahoma, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 450px;
+    padding-left: 2px;
+  }
+  
+  #description {
+    text-align: center;
+    width: 450px;
+  }
+  
+  article p {
+    text-align: center;
+    font-size: 13px;
+  }
+  
