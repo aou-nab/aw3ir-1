@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styleTP3.css">
+
+  <script type="text/javascript" src="js/form-validation.js"></script>
+  <!-- CSS boostrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- librairie Javascript de boostrap pour pouvoir utiliser les composants interactifs (modal https://getbootstrap.com/docs/5.1/components/modal/ , collapse...) -->
+  <script src="js/bootstrap.bundle.js"></script>
+   
+
+<style>
+        
+    body{
+background-color: rgb(143, 140, 142);
+}
+div{
+background-color: rgb(153, 127, 147);
+color: rgb(94, 104, 103);
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+margin-left: 0%;
+margin-right: 0%;
+width: auto;
+
+}
+
+</style>
+
+</head>
+ 
+<body>
+    
+    <div class="container">
+        <!-- Content here -->
+        <h2>Formulaire à remplir </h2>
+        <form method="post" id="FORMULAIRE" action="#" >
+      
+          <div class="form-group">
+          <label for="NOM" class="col-sm-4 control-label">Nom </label>
+          <div class="col-sm-8">
+          <input type="text" class="form-control" id="NOM"  name="nom" placeholder="votre Nom" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="PRENOM" class="col-sm-4 control-label">Prenom </label>
+          <div class="col-sm-8">
+          <input type="text" class="form-control" id="PRENOM" name ="prenom" placeholder="votre Prénom" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="dob" class="col-sm-4 control-label">Date de naissance <span  class="datepicker-format"></span></label>
+          <input class="form-control" id="dob" name="Date de Naissance" type="date" />
+                
+          <div class="form-group">
+            <label for="ADRESSE" class="col-sm-4 control-label">Adresse</label>
+            <div class="col-sm-8">
+            <input type="text" class="form-control" id="ADRESSE" name="Adresse" placeholder="Votre adresse" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="MAIL" class="col-sm-4 control-label">Mail</label>
+            <div class="col-sm-8">
+            <input type="text" class="form-control" id="MAIL" name="Mail" placeholder="Votre mail" />
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col" align="center"><input type="button" value="Valider" onclick="validation()"></div>
+          </div>
+    
+    
+          <div class="row ">
+            <div class="col">
+              <div id="error"></div>
+              <div id="resultat"></div>
+            </div>
+          </div>
+        
+    
+
+          <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">ENVOYER</button>
+          </div>
+        </div>
+        </div>
+        
+       </form>
+
+
+             <div class="modal" tabindex="-1" role="dialog" id="myModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Salut ! </h5>
+                      <button type="button" class="Fermer" data-dismiss="modal" aria-label="Fermer">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+
+                      <div class="modal-body"> Vous etes nés ici 
+
+                        <span class="date"></span> Vous Habitez ici 
+                        
+                        <img src="map.png" style=" max-width: 100%;">
+                      
+                      
+                      <a href="http://maps.google.com/maps?"  target="_blank">voici le lien Google</a>
+                       
+                      </div>
+              
+                      <p> Remplissez tous les Champs s'il vous plait ! </p>
+                    </div>
+
+                    <div class="modal-footer">
+
+                      <button type="button" class="btn btn-primary">enregistrer les modifications </button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+
+
+
+
+
+      </div>
+      
+</body>
+</html>
